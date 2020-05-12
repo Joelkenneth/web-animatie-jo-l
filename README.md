@@ -1,1 +1,1 @@
-# web-animatie-jo-l
+# web-typography

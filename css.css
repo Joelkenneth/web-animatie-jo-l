@@ -23,7 +23,7 @@ Feel free to adjust the defaults to your needs.
     font-style: normal;
     font-weight: 400;
     max-width: 700px;
-    bottom: 32%;
+    bottom: 29%;
     left: 27em;
     font-size: 1.2em;
 }
@@ -34,22 +34,23 @@ Feel free to adjust the defaults to your needs.
     font-weight: 600;
     font-size: 1.2em;
     max-width: 700px;
-    bottom: 28%;
+    bottom: 25%;
     left: 27em;
 }
 
 .voice3 {
-    font-family: "Brenner Slab";
-	font-style: normal;
-    font-weight: 800;
-    text-transform: uppercase;
+    font-family: "Brenner Sans Condensed";
+	font-style: italic;
+    font-weight: 400;
+    text-transform: lowercase;
     color: orangered;
-    padding-left: 280px;
-    font-size: 1.5em;
+    padding-left: 320px;
+    font-size: 1.2em;
     max-width: 500px;
     position: absolute;
-    bottom: 68%;
-    left: 15em;
+    bottom: 73%;
+    left: 21em;
+    letter-spacing: 0.15em;
 }
 
 .voice4 {
@@ -60,6 +61,50 @@ Feel free to adjust the defaults to your needs.
     max-width: 700px;
     bottom: 30%;
     left: 27em;
+}
+
+.voice10 {
+    font-family: "brenner mono";
+    font-style: normal;
+    font-weight: 400;
+    max-width: 700px;
+    bottom: 29%;
+    left: 27em;
+    font-size: 1.2em;
+    color: white;
+}
+
+.voice20 {
+    font-family: "Brenner Sans";
+	font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    max-width: 700px;
+    bottom: 25%;
+    left: 27em;
+    color: white;
+}
+
+.voice21 {
+    font-family: "Brenner Sans";
+	font-style: normal;
+    font-weight: 600;
+    font-size: 1.3em;
+    max-width: 700px;
+    bottom: 22%;
+    left: 25em;
+    color: white;
+}
+
+.voice22 {
+    font-family: "Brenner Sans";
+	font-style: normal;
+    font-weight: 600;
+    font-size: 1.4em;
+    max-width: 700px;
+    bottom: 19%;
+    left: 23em;
+    color: white;
 }
 
 #video-placeholder {
@@ -87,6 +132,18 @@ Feel free to adjust the defaults to your needs.
     animation: colorchan 3s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorchan 3s; /* Chrome and Safari */
+}
+
+.sound5 {
+    animation: colorch 3s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorch 3s; /* Chrome and Safari */
+}
+
+.sound7 {
+    animation: colorc 3s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorc 3s; /* Chrome and Safari */
 }
 
 .sound9 {
@@ -137,23 +194,57 @@ Feel free to adjust the defaults to your needs.
     {
       0%   {background: white;}
       60%  {background: #7b4397;}
+      70% {background: #f7971e;}
+      100% {background: white;}
+    }
+
+@keyframes colorch
+    {
+      0%   {background: white;}
+      60%  {background: #b19cd9;}
+      70% {background: #f7971e;}
+      100% {background: white;}
+    }
+
+ @-webkit-keyframes colorch /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: white;}
+      70%  {background: #b19cd9;}
       75% {background: #f7971e;}
+      100% {background: white;}
+    }
+
+@keyframes colorc
+    {
+      0%   {background: white;}
+      40%  {background: purple;}
+      55% {background: #f7971e;}
+      75% {background: white;}
+      100% {background: white;}
+    }
+
+ @-webkit-keyframes colorc /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: white;}
+      40%  {background: purple;}
+      55% {background: #f7971e;}
+      75% {background: white;}
       100% {background: white;}
     }
 
 @keyframes colorcha
     {
       0%   {background: white;}
-      80%  {background: red;}
-      97%  {background: yellow;}
+      50%  {background: yellow;}
+      98%  {background: red;}
       100% {background: white;}
     }
 
  @-webkit-keyframes colorcha /* Safari and Chrome - necessary duplicate */
     {
       0%   {background: white;}
-      80%  {background: red;}
-      97%  {background: yellow;}
+      50%  {background: yellow;}
+      98%  {background: red;}
       100% {background: white;}
     }
 

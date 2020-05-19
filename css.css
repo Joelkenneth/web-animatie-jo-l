@@ -59,10 +59,10 @@ Feel free to adjust the defaults to your needs.
     font-family: "Brenner Sans";
 	font-style: normal;
     font-weight: 400;
-    font-size: 1.2em;
-    max-width: 700px;
+    font-size: 1em;
+    max-width: 800px;
     bottom: 30%;
-    left: 20.2em;
+    left: 25em;
     color: white;
 }
 
@@ -72,8 +72,8 @@ Feel free to adjust the defaults to your needs.
     font-weight: 600;
     font-size: 1em;
     max-width: 800px;
-    bottom: 26%;
-    left: 37em;
+    bottom: 18%;
+    left: 31em;
     color: white;
 }
 
@@ -83,8 +83,8 @@ Feel free to adjust the defaults to your needs.
     font-weight: 600;
     font-size: 1em;
     max-width: 800px;
-    bottom: 26%;
-    left: 49em;
+    bottom: 18%;
+    left: 43em;
     color: white;
 }
 
@@ -99,12 +99,13 @@ Feel free to adjust the defaults to your needs.
 
 
 .alarmpie1 {
+  visibility: hidden;
   position: fixed; 
-  visibility: visible;
-  width: 4%; 
-  height: 7%; 
-  bottom: 27%;
-  left: 68em;
+  opacity: 100%;
+  width: 60px; 
+  height: 65px; 
+  bottom: 26.5%;
+  left: 67.5em;
 }
 
 /*  https://codepen.io/metagrapher/pen/tgcLl */
@@ -114,16 +115,30 @@ Feel free to adjust the defaults to your needs.
       -webkit-animation: colorchange 2s; /* Chrome and Safari */
 }
 
+.sound1 .alarmpie1 {
+    animation: showimage 2s forwards;
+}
+
+
 .sound2 {
     animation: colorchang 1.8s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorchang 1.8s; /* Chrome and Safari */
 }
 
+.sound2 .alarmpie1 {
+    animation: showimage2 1.8s forwards;
+}
+
+
 .sound3 {
     animation: colorchan 3s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorchan 3s; /* Chrome and Safari */
+}
+
+.sound3 .alarmpie1 {
+    animation: showimage3 3s forwards;
 }
 
 .sound5 {
@@ -143,6 +158,19 @@ Feel free to adjust the defaults to your needs.
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorcha 42s; /* Chrome and Safari */
 }
+
+.sound9 .filmpje {
+  animation: filmpjezoom 42s forwards;
+}
+
+.sound9 .voice1 {
+    animation: textmove 42s forwards;
+}
+
+.sound9 .voice2 {
+    animation: textmove2 42s forwards;
+}
+
 
 @keyframes colorchange
     {   
@@ -164,6 +192,24 @@ Feel free to adjust the defaults to your needs.
           transform: scale('1');}
     }
 
+@keyframes showimage {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    50%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
 
 @keyframes colorchang
     {
@@ -181,6 +227,24 @@ Feel free to adjust the defaults to your needs.
       100% {background: white;}
     }
 
+@keyframes showimage2 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    50%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
 @keyframes colorchan
     {
       0%   {background: white;}
@@ -196,6 +260,29 @@ Feel free to adjust the defaults to your needs.
       70% {background: #f7971e;}
       100% {background: white;}
     }
+
+@keyframes showimage3 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    55% 
+    {
+        visibility: visible;
+        opacity: 60%;
+    }
+    60%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
 
 @keyframes colorch
     {
@@ -247,6 +334,89 @@ Feel free to adjust the defaults to your needs.
       100% {background: white;}
     }
 
+@keyframes filmpjezoom {
+  0% {
+    transform: scale(1);
+  }
+
+  98% {
+    transform: scale(1.3);
+  }
+    
+    100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes textmove {
+  0% {
+    font-family: "brenner mono";
+    font-style: normal;
+    font-weight: 400;
+    max-width: 800px;
+    bottom: 30%;
+    left: 25em;
+    font-size: 1em;
+    color: white;
+  }
+
+  98% {
+    font-family: "brenner mono";
+    font-style: normal;
+    font-weight: 400;
+    max-width: 800px;
+    bottom: 22%;
+    left: 19em;
+    font-size: 1em;
+    color: white;
+  }
+    
+    100% {
+    font-family: "brenner mono";
+    font-style: normal;
+    font-weight: 400;
+    max-width: 800px;
+    bottom: 30%;
+    left: 25em;
+    font-size: 1em;
+    color: white;
+  }
+}
+
+@keyframes textmove2 {
+  0% {
+    font-family: "Brenner Sans";
+	font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    max-width: 800px;
+    bottom: 26%;
+    left: 25em;
+    color: white;
+  }
+
+  98% {
+    font-family: "Brenner Sans";
+	font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    max-width: 800px;
+    bottom: 18%;
+    left: 19em;
+    color: white;
+  }
+    
+    100% {
+    font-family: "Brenner Sans";
+	font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    max-width: 800px;
+    bottom: 26%;
+    left: 25em;
+    color: white;
+  }
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 

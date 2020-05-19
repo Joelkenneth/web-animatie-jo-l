@@ -22,20 +22,22 @@ Feel free to adjust the defaults to your needs.
     font-family: "brenner mono";
     font-style: normal;
     font-weight: 400;
-    max-width: 700px;
-    bottom: 29%;
-    left: 20.2em;
-    font-size: 1.2em;
+    max-width: 800px;
+    bottom: 30%;
+    left: 25em;
+    font-size: 1em;
+    color: white;
 }
 
 .voice2 {
     font-family: "Brenner Sans";
 	font-style: normal;
     font-weight: 600;
-    font-size: 1.2em;
-    max-width: 700px;
-    bottom: 25%;
-    left: 20.2em;
+    font-size: 1em;
+    max-width: 800px;
+    bottom: 26%;
+    left: 25em;
+    color: white;
 }
 
 .voice3 {
@@ -48,8 +50,8 @@ Feel free to adjust the defaults to your needs.
     font-size: 1.2em;
     max-width: 500px;
     position: absolute;
-    bottom: 73%;
-    left: 21em;
+    bottom: 64%;
+    left: 11em;
     letter-spacing: 0.15em;
 }
 
@@ -61,27 +63,6 @@ Feel free to adjust the defaults to your needs.
     max-width: 700px;
     bottom: 30%;
     left: 20.2em;
-}
-
-.voice10 {
-    font-family: "brenner mono";
-    font-style: normal;
-    font-weight: 400;
-    max-width: 700px;
-    bottom: 29%;
-    left: 20.2em;
-    font-size: 1.2em;
-    color: white;
-}
-
-.voice20 {
-    font-family: "Brenner Sans";
-	font-style: normal;
-    font-weight: 600;
-    font-size: 1.2em;
-    max-width: 700px;
-    bottom: 25%;
-    left: 20.2em;
     color: white;
 }
 
@@ -89,10 +70,10 @@ Feel free to adjust the defaults to your needs.
     font-family: "Brenner Sans";
 	font-style: normal;
     font-weight: 600;
-    font-size: 1.3em;
-    max-width: 700px;
-    bottom: 22%;
-    left: 20.2em;
+    font-size: 1em;
+    max-width: 800px;
+    bottom: 26%;
+    left: 37em;
     color: white;
 }
 
@@ -100,19 +81,30 @@ Feel free to adjust the defaults to your needs.
     font-family: "Brenner Sans";
 	font-style: normal;
     font-weight: 600;
-    font-size: 1.4em;
-    max-width: 700px;
-    bottom: 19%;
-    left: 20.2em;
+    font-size: 1em;
+    max-width: 800px;
+    bottom: 26%;
+    left: 49em;
     color: white;
 }
 
 #video-placeholder {
     width: 50%;
     max-width: 2400px;
-    height: 50vh;
+    height: 60vh;
     margin: 100px auto;
     display: block;
+}
+
+
+
+.alarmpie1 {
+  position: fixed; 
+  visibility: visible;
+  width: 4%; 
+  height: 7%; 
+  bottom: 27%;
+  left: 68em;
 }
 
 /*  https://codepen.io/metagrapher/pen/tgcLl */
@@ -153,18 +145,25 @@ Feel free to adjust the defaults to your needs.
 }
 
 @keyframes colorchange
-    {
-      0%   {background: white;}
-      50%  {background: darkblue;}
-      100% {background: white;}
+    {   
+      0%   {background: white;
+          transform: scale('1');}
+      50%  {background: darkblue;
+          transform: scale('0.5');}
+      100% {background: white;
+          transform: scale('1');}
     }
 
  @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: white;}
-      50%  {background: darkblue;}
-      100% {background: white;}
+      0%   {background: white;
+          transform: scale('1');}
+      50%  {background: darkblue;
+          transform: scale('0.5');}
+      100% {background: white;
+          transform: scale('1');}
     }
+
 
 @keyframes colorchang
     {

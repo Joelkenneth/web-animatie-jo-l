@@ -18,6 +18,10 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 
+body {
+    background-color: black;
+}
+
 .voice1 {
     font-family: "brenner mono";
     font-style: normal;
@@ -26,32 +30,38 @@ Feel free to adjust the defaults to your needs.
     bottom: 30%;
     left: 25em;
     font-size: 1em;
-    color: white;
+    color: #00bfff;
 }
 
 .voice2 {
     font-family: "Brenner Sans";
 	font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1em;
     max-width: 800px;
     bottom: 26%;
     left: 25em;
-    color: white;
+    color: #ffcd94;
 }
 
 .voice3 {
     font-family: "Brenner Sans Condensed";
-	font-style: italic;
+	font-style: normal;
     font-weight: 400;
     text-transform: lowercase;
-    color: orangered;
-    padding-left: 320px;
-    font-size: 1.2em;
+    color: darkblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkblue;
+    border-radius: 15px;
+    background: #ffffff;
+    padding: 5px;
+    margin-left:310px;
+    font-size: 1em;
     max-width: 500px;
     position: absolute;
     bottom: 64%;
-    left: 11em;
+    left: 8em;
     letter-spacing: 0.15em;
 }
 
@@ -63,29 +73,52 @@ Feel free to adjust the defaults to your needs.
     max-width: 800px;
     bottom: 30%;
     left: 25em;
-    color: white;
+    color: #00bfff;
+}
+
+.voice5 {
+    font-family: "brenner mono";
+    font-style: normal;
+    font-weight: 400;
+    max-width: 700px;
+    bottom: 27%;
+    left: 25em;
+    font-size: 1em;
+    color: #00bfff;
+}
+
+.voice10 {
+    font-family: "brenner mono";
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    max-width: 2400px;
+    bottom: 22%;
+    left: 52vh;
+    font-size: 1.6em;
+    color: red;
 }
 
 .voice21 {
     font-family: "Brenner Sans";
 	font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1em;
     max-width: 800px;
     bottom: 18%;
-    left: 31em;
-    color: white;
+    left: 35em;
+    color: #ffcd94;
 }
 
 .voice22 {
     font-family: "Brenner Sans";
 	font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1em;
     max-width: 800px;
     bottom: 18%;
-    left: 43em;
-    color: white;
+    left: 47em;
+    color: #ffcd94;
 }
 
 #video-placeholder {
@@ -104,11 +137,127 @@ Feel free to adjust the defaults to your needs.
   opacity: 100%;
   width: 60px; 
   height: 65px; 
-  bottom: 26.5%;
-  left: 67.5em;
+  bottom: 77%;
+  left: 25em;
 }
 
+.muzieknoot1 {
+  visibility: hidden;
+  position: fixed; 
+  opacity: 100%;
+  width: 400px; 
+  height: 65px; 
+  bottom: 77%;
+  left: 25em;
+}
+
+.hogepiep1 {
+  visibility: hidden;
+  position: fixed; 
+  opacity: 100%;
+  width: 60px; 
+  height: 65px; 
+  bottom: 77%;
+  left: 25em;
+}
+
+.g1 {
+  visibility: hidden;
+  position: fixed; 
+  opacity: 100%;
+  bottom: 77.5%;
+  left: 23em;
+  font-family: "Brenner Sans Condensed";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3em;
+  font-style: italic;
+  max-width: 800px;
+  color: white;
+}
+
+.g2 {
+  visibility: hidden;
+  position: fixed; 
+  opacity: 100%;
+  bottom: 77.5%;
+  left: 23em;
+  font-family: "Brenner Sans Condensed";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3em;
+  font-style: italic;
+  max-width: 800px;
+  color: white;
+}
+
+
+.g3 {
+  visibility: hidden;
+  position: fixed; 
+  opacity: 100%;
+  bottom: 77.5%;
+  left: 23em;
+  font-family: "Brenner Sans Condensed";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3em;
+  font-style: italic;
+  max-width: 800px;
+  color: white;
+}
+
+.g4 {
+  visibility: hidden;
+  position: fixed; 
+  opacity: 100%;
+  bottom: 77.5%;
+  left: 23em;
+  font-family: "Brenner Sans Condensed";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3em;
+  font-style: italic;
+  max-width: 800px;
+  color: white;
+}
+
+.g5 {
+  visibility: hidden;
+  position: fixed; 
+  opacity: 100%;
+  bottom: 77.5%;
+  left: 43em;
+  font-family: "Brenner Sans Condensed";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3em;
+  font-style: italic;
+  max-width: 800px;
+  color: white;
+}
+
+.g6 {
+  visibility: hidden;
+  position: fixed; 
+  opacity: 100%;
+  bottom: 77.5%;
+  left: 43em;
+  font-family: "Brenner Sans Condensed";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3em;
+  font-style: italic;
+  max-width: 800px;
+  color: white;
+}
+
+
 /*  https://codepen.io/metagrapher/pen/tgcLl */
+.sound0 .g5 {
+    animation: showtext0 20s forwards;
+}
+
 .sound1 {
     animation: colorchange 2s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
@@ -117,6 +266,10 @@ Feel free to adjust the defaults to your needs.
 
 .sound1 .alarmpie1 {
     animation: showimage 2s forwards;
+}
+
+.sound1 .g2 {
+    animation: showtext1 2s forwards;
 }
 
 
@@ -130,6 +283,10 @@ Feel free to adjust the defaults to your needs.
     animation: showimage2 1.8s forwards;
 }
 
+.sound2 .g3 {
+    animation: showtext2 1.8s forwards;
+}
+
 
 .sound3 {
     animation: colorchan 3s; /* animation-name followed by duration in seconds*/
@@ -141,16 +298,37 @@ Feel free to adjust the defaults to your needs.
     animation: showimage3 3s forwards;
 }
 
+.sound3 .g4 {
+    animation: showtext3 3s forwards;
+}
+
+
 .sound5 {
     animation: colorch 3s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorch 3s; /* Chrome and Safari */
 }
 
+.sound5 .alarmpie1 {
+    animation: showimage5 3s forwards;
+}
+
+.sound5 .g4 {
+    animation: showtext5 3s forwards;
+}
+
 .sound7 {
     animation: colorc 3s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorc 3s; /* Chrome and Safari */
+}
+
+.sound7 .alarmpie1 {
+    animation: showimage7 3s forwards;
+}
+
+.sound7 .g4 {
+    animation: showtext7 3s forwards;
 }
 
 .sound9 {
@@ -163,6 +341,11 @@ Feel free to adjust the defaults to your needs.
   animation: filmpjezoom 42s forwards;
 }
 
+.sound9 .hogepiep1 {
+    animation: showimage9 42s forwards;
+}
+
+
 .sound9 .voice1 {
     animation: textmove 42s forwards;
 }
@@ -171,24 +354,63 @@ Feel free to adjust the defaults to your needs.
     animation: textmove2 42s forwards;
 }
 
+.sound9 .g1 {
+    animation: textmove3 42s forwards;
+}
+
+.sound10 {
+    animation: ending 44s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: ending 44s; /* Chrome and Safari */
+}
+
+.sound10 .muzieknoot1 {
+    animation: showimage100 44s forwards;
+}
+
+.sound10 .g6 {
+    animation: showtext100 44s forwards;
+}
+
+/* SOUND 0 ANIMATIES */
+
+@keyframes showtext0 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    50%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
+/* SOUND 1 ANIMATIES */
 
 @keyframes colorchange
     {   
-      0%   {background: white;
+      0%   {background: black;
           transform: scale('1');}
       50%  {background: darkblue;
           transform: scale('0.5');}
-      100% {background: white;
+      100% {background: black;
           transform: scale('1');}
     }
 
  @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: white;
+      0%   {background: black;
           transform: scale('1');}
       50%  {background: darkblue;
           transform: scale('0.5');}
-      100% {background: white;
+      100% {background: black;
           transform: scale('1');}
     }
 
@@ -210,21 +432,41 @@ Feel free to adjust the defaults to your needs.
     }
 }
 
+@keyframes showtext1 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 50%;
+    }
+    50%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
+
+/* SOUND 2 ANIMATIES */
 
 @keyframes colorchang
     {
-      0%   {background: white;}
+      0%   {background: black;}
       20%  {background: #ffd200;}
       80% {background: #f7971e;}
-      100% {background: white;}
+      100% {background: black;}
     }
 
  @-webkit-keyframes colorchang /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: white;}
+      0%   {background: black;}
       20%  {background: #ffd200;}
       80% {background: #f7971e;}
-      100% {background: white;}
+      100% {background: black;}
     }
 
 @keyframes showimage2 {
@@ -245,20 +487,40 @@ Feel free to adjust the defaults to your needs.
     }
 }
 
+@keyframes showtext2 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 50%;
+    }
+    50%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
+/* SOUND 3 ANIMATIES */
+
 @keyframes colorchan
     {
-      0%   {background: white;}
+      0%   {background: black;}
       60%  {background: #7b4397;}
-      75% {background: #f7971e;}
-      100% {background: white;}
+      75%  {background: #f7971e;}
+      100% {background: black;}
     }
 
  @-webkit-keyframes colorchan /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: white;}
+      0%   {background: black;}
       60%  {background: #7b4397;}
       70% {background: #f7971e;}
-      100% {background: white;}
+      100% {background: black;}
     }
 
 @keyframes showimage3 {
@@ -284,55 +546,225 @@ Feel free to adjust the defaults to your needs.
     }
 }
 
+@keyframes showtext3 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    55% 
+    {
+        visibility: visible;
+        opacity: 60%;
+    }
+    60%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
+/* SOUND 5 ANIMATIES */
+
 @keyframes colorch
     {
-      0%   {background: white;}
-      60%  {background: #b19cd9;}
+      0%   {background: black;}
+      55%  {background: #b19cd9;}
       70% {background: #f7971e;}
-      100% {background: white;}
+      100% {background: black;}
     }
 
  @-webkit-keyframes colorch /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: white;}
-      70%  {background: #b19cd9;}
-      75% {background: #f7971e;}
-      100% {background: white;}
+      0%   {background: black;}
+      55%  {background: #b19cd9;}
+      70% {background: #f7971e;}
+      100% {background: black;}
     }
+
+@keyframes showimage5 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    55% 
+    {
+        visibility: visible;
+        opacity: 60%;
+    }
+    70%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
+@keyframes showtext5 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 50%;
+    }
+    55% 
+    {
+        visibility: visible;
+        opacity: 60%;
+    }
+    70%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
+/* SOUND 7 ANIMATIES */
 
 @keyframes colorc
     {
-      0%   {background: white;}
+      0%   {background: black;}
       40%  {background: purple;}
       55% {background: #f7971e;}
-      75% {background: white;}
-      100% {background: white;}
+      75% {background: black;}
+      100% {background: black;}
     }
 
  @-webkit-keyframes colorc /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: white;}
+      0%   {background: black;}
       40%  {background: purple;}
       55% {background: #f7971e;}
-      75% {background: white;}
-      100% {background: white;}
+      75% {background: black;}
+      100% {background: black;}
     }
+
+@keyframes showimage7 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    30% 
+    {
+        visibility: visible;
+        opacity: 60%;
+    }
+    50%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    80% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
+@keyframes showtext7 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 50%;
+    }
+    30% 
+    {
+        visibility: visible;
+        opacity: 60%;
+    }
+    50%
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    80% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+/* GEEL - ROOD LANGE OVERGANG */
 
 @keyframes colorcha
     {
-      0%   {background: white;}
-      50%  {background: yellow;}
+      0%   {background: black;}
+      25%  {background: yellow;}
       98%  {background: red;}
-      100% {background: white;}
+      100% {background: black;}
     }
 
  @-webkit-keyframes colorcha /* Safari and Chrome - necessary duplicate */
     {
-      0%   {background: white;}
-      50%  {background: yellow;}
+      0%   {background: black;}
+      25%  {background: yellow;}
       98%  {background: red;}
-      100% {background: white;}
+      100% {background: black;}
     }
+
+
+/* INZOOMEN BEELD */
+
+@keyframes showimage9 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+        transform: scale(1);
+        bottom: 77%;
+        left: 25.5em;
+    }
+    1% 
+    {
+        visibility: visible;
+        opacity: 100%;
+        transform: scale(1);
+        bottom: 77%;
+        left: 25.5em;
+    }
+    98% 
+    {
+        visibility: visible;
+        opacity: 100%;
+        transform: scale(1.5);
+        bottom: 85%;
+        left: 19em;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+        transform: scale(1);
+        bottom: 77%;
+        left: 25em;
+    }
+}
+
+
 
 @keyframes filmpjezoom {
   0% {
@@ -348,6 +780,7 @@ Feel free to adjust the defaults to your needs.
   }
 }
 
+
 @keyframes textmove {
   0% {
     font-family: "brenner mono";
@@ -357,7 +790,7 @@ Feel free to adjust the defaults to your needs.
     bottom: 30%;
     left: 25em;
     font-size: 1em;
-    color: white;
+    color: #00bfff;
   }
 
   98% {
@@ -366,9 +799,9 @@ Feel free to adjust the defaults to your needs.
     font-weight: 400;
     max-width: 800px;
     bottom: 22%;
-    left: 19em;
+    left: 18.5em;
     font-size: 1em;
-    color: white;
+    color: #00bfff;
   }
     
     100% {
@@ -379,7 +812,7 @@ Feel free to adjust the defaults to your needs.
     bottom: 30%;
     left: 25em;
     font-size: 1em;
-    color: white;
+    color: #00bfff;
   }
 }
 
@@ -387,35 +820,144 @@ Feel free to adjust the defaults to your needs.
   0% {
     font-family: "Brenner Sans";
 	font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1em;
     max-width: 800px;
     bottom: 26%;
     left: 25em;
-    color: white;
+    color: #ffcd94;
   }
 
   98% {
     font-family: "Brenner Sans";
 	font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1em;
     max-width: 800px;
     bottom: 18%;
-    left: 19em;
-    color: white;
+    left: 18.5em;
+    color: #ffcd94;
   }
     
     100% {
     font-family: "Brenner Sans";
 	font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1em;
     max-width: 800px;
     bottom: 26%;
     left: 25em;
-    color: white;
+    color: #ffcd94;
   }
+}
+
+@keyframes textmove3 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+        transform: scale(1);
+        bottom: 77.5%;
+        left: 24em;
+    }
+    1% 
+    {
+        visibility: visible;
+        opacity: 100%;
+        transform: scale(1);
+        bottom: 77.5;
+        left: 24em;
+    }
+    98% 
+    {
+        visibility: visible;
+        opacity: 100%;
+        transform: scale(1.3);
+        bottom: 85.8%;
+        left: 20.5em;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+        transform: scale(1.3);
+        bottom: 77.5%;
+        left: 24em;
+    }
+}
+
+/* LAATSTE INTERVIEW */
+
+
+@keyframes ending
+    {
+      0%   {background: black;}
+      10%  {background: orange;}
+      23%  {background: yellow;}
+      40%  {background: #b19cd9;}
+      57%  {background: yellow;}
+      98%  {background: red;}
+      100% {background: black;}
+    }
+
+ @-webkit-keyframes ending /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: black;}
+      10%  {background: orange;}
+      23%  {background: yellow;}
+      40%  {background: #b19cd9;}
+      57%  {background: yellow;}
+      98%  {background: red;}
+      100% {background: black;}
+    }
+
+@keyframes showimage100 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    3% 
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    }
+    96% 
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+}
+
+
+@keyframes showtext100 {
+    0% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
+    3% 
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    }
+    98% 
+    {
+        visibility: visible;
+        opacity: 100%;
+    }
+    100% 
+    {
+        visibility: visible;
+        opacity: 0%;
+    }
 }
 
 /* **********************************************
